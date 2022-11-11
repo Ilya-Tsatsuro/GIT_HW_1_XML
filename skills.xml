@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <skills>
+        <skill_1>SDLC</skill_1>
+        <skill_2>STLC</skill_2>
+        <skill_3>QA_Theory</skill_3>
+        <skill_4>HTTP(s)</skill_4>
+        <skill_5>XML</skill_5>
+        <skill_6>JSON</skill_6>
+        <skill_7>DevTools</skill_7>
+        <skill_8>API</skill_8>
+        <skill_9>Postman</skill_9>
+        <skill_10>SQL</skill_10>
+    </skills>
+</root>

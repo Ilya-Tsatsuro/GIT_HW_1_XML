@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <preferences>
+        <Favorite_movie>The Rock</Favorite_movie>
+        <Favorite_TV_series>Lol</Favorite_TV_series>
+        <Favorite_food>Sushi</Favorite_food>
+        <Favorite_time_of_year>Spring</Favorite_time_of_year>
+        <<Country_to_travel>USA</Country_to_travel>
+    </preferences>
+</root>
