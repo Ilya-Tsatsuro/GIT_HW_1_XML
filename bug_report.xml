@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <bug_report>
+        <id>101</id>
+        <Title>Clicking on the Viber icon in the support side menu does not switch to the messenger</Title>
+        <STR>
+          <Step_1>Open capital.com</Step_1>
+          <Step_1>Click on icon Viber</Step_1>
+        </STR>
+      <AR>There isn't transition to the Viber messenger page</AR>
+      <ER>The Viber messenger page opens</ER>
+    </bug_report>
+</root>
