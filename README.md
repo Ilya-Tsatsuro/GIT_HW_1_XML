@@ -13,7 +13,8 @@ Command: cd Desktop/Тестирование/gitrepo/
 
 4. Создать внешний репозиторий c названием XML.
 
-![]()
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Create%20a%20new%20repository.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Button%20create%20repository.png?raw=true)
 
 5. Клонировать репозиторий XML на локальный компьютер.
 ```bash
@@ -38,7 +39,7 @@ Command: git commit -m "add new.xml"
 Command: git push
 ```
 10. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-```bash
+```xml
 Command: cat >> new.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <root> 
@@ -52,7 +53,7 @@ Command: cat >> new.xml
 ```
 11. Отправить изменения на внешний репозиторий.
 ```bash
-Command: git commit -m "modify new.xml"
+Command: git commit -am "modify new.xml"
 Command: git push
 ```
 12. Создать файл preferences.xml
@@ -60,7 +61,7 @@ Command: git push
 Command: touch preference.xml
 ```
 13. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-```bash
+```xml
 Command: cat >> preference.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
@@ -73,52 +74,55 @@ Command: cat >> preference.xml
     </preferences>
 </root>
 ```
-14. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML.
-```bash 
+14. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML.
+```xml 
 Command: touch skills.xml
-```
-```bash
 Command: cat >> skills.xml
-{
-    "skills": ["SDLC", "STLC", "HTTP", "JSON", "XML", "API", "Postman", "Charles", "Fiddler", "DevTools", "VPN", "SQL", "Redis"]
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <skills>
+        <skill_1>SDLC</skill_1>
+        <skill_2>STLC</skill_2>
+        <skill_3>QA_Theory</skill_3>
+        <skill_4>HTTP(s)</skill_4>
+        <skill_5>XML</skill_5>
+        <skill_6>JSON</skill_6>
+        <skill_7>DevTools</skill_7>
+        <skill_8>API</skill_8>
+        <skill_9>Postman</skill_9>
+        <skill_10>SQL</skill_10>
+    </skills>
+</root>
 ```
 15. Сделать коммит в одну строку.
 ```bash
-
+Command: git add . && git commit -m "add 2 files"
 ```
-
 16. Отправить сразу 2 файла на внешний репозиторий.
- ```bash 
-Command: git add .
-```
- ```bash 
-Command: git commit -am "add 2 files"
-```
  ```bash 
 Command: git push
 ```
-16. На веб интерфейсе создать файл bug_report.xml.
+17. На веб интерфейсе создать файл bug_report.xml.
 
-![]()
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Create%20new%20file.png?raw=true)
 
-![]()
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Create%20bug_report.xml.png?raw=true)
 
-17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
-![]()
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Commit%20new%20file.png?raw=true)
 
-18. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+19. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
 
-![]()
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Edit%20file.png?raw=true)
 
-![]()
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Edit%20file1.png?raw=true)
 
-19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
-![]()
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/screen_for_xml/Commit%20bagreport.png?raw=true)
 
-20. Синхронизировать внешний и локальный репозиторий XML.
+21. Синхронизировать внешний и локальный репозиторий XML.
 ```bash
 Command: git pull
 ```
